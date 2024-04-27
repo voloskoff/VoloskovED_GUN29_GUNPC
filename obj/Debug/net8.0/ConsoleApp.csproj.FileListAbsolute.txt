@@ -1,0 +1,14 @@
+G:\Unity_Netology\ConsoleApp\ConsoleApp\bin\Debug\net8.0\ConsoleApp.exe
+G:\Unity_Netology\ConsoleApp\ConsoleApp\bin\Debug\net8.0\ConsoleApp.deps.json
+G:\Unity_Netology\ConsoleApp\ConsoleApp\bin\Debug\net8.0\ConsoleApp.runtimeconfig.json
+G:\Unity_Netology\ConsoleApp\ConsoleApp\bin\Debug\net8.0\ConsoleApp.dll
+G:\Unity_Netology\ConsoleApp\ConsoleApp\bin\Debug\net8.0\ConsoleApp.pdb
+G:\Unity_Netology\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+G:\Unity_Netology\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfoInputs.cache
+G:\Unity_Netology\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfo.cs
+G:\Unity_Netology\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.CoreCompileInputs.cache
+G:\Unity_Netology\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.dll
+G:\Unity_Netology\ConsoleApp\ConsoleApp\obj\Debug\net8.0\refint\ConsoleApp.dll
+G:\Unity_Netology\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
+G:\Unity_Netology\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
+G:\Unity_Netology\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll
