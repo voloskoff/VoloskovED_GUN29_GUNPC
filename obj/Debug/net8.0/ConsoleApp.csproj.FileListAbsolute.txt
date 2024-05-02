@@ -12,3 +12,4 @@ G:\Unity_Netology\ConsoleApp\ConsoleApp\obj\Debug\net8.0\refint\ConsoleApp.dll
 G:\Unity_Netology\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
 G:\Unity_Netology\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
 G:\Unity_Netology\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll
+G:\Unity_Netology\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.sourcelink.json
