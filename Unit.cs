@@ -5,7 +5,6 @@
         private float _health;
         //private float _damage = 5f;
         private float _baseDamage = 5f;
-        private float _armor;
 
         public string Name { get; } /*= "Unknown Unit";*/
         public float Health { get { return _health; } }
@@ -23,18 +22,15 @@
         {
             get 
             {
-                return _armor ;
+                Helm armorHelm = new Helm("FighterArmorHelm");
+                Shell armorShell = new Shell("FighterArmorShell");
+                Boots armorBoots = new Boots ("FighterArmorBoots");
+                var armor = armorHelm.ArmorHelm + armorShell.ArmorShell + armorBoots.ArmorBoots;
+                if (armor < 0) armor = 0;
+                if (armor >=1) armor = 1;
+                return armor ;
             }
-            
-            //set 
-            //{
-            //    //var armorHelm = new Helm();
-            //    //var armorShell = new Shell();
-            //    //var armorBoots = new Boots();
-            //    //_armor = armorHelm.ArmorHelm + armorShell.ArmorShell + armorBoots.ArmorBoots;
-            //    //SetArmor(armorHelm);
-            //    _armor = value;
-            //}
+          
         }
 
 
