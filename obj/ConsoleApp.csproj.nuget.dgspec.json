@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Unity_Netology\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {}
+    "C:\\C#\\VoloskovED_GUN29_GUNPC\\VoloskovED_GUN29_GUNPC\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "G:\\Unity_Netology\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {
+    "C:\\C#\\VoloskovED_GUN29_GUNPC\\VoloskovED_GUN29_GUNPC\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Unity_Netology\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "C:\\C#\\VoloskovED_GUN29_GUNPC\\VoloskovED_GUN29_GUNPC\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "G:\\Unity_Netology\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "C:\\C#\\VoloskovED_GUN29_GUNPC\\VoloskovED_GUN29_GUNPC\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\Zef1r\\.nuget\\packages\\",
-        "outputPath": "G:\\Unity_Netology\\ConsoleApp\\ConsoleApp\\obj\\",
+        "outputPath": "C:\\C#\\VoloskovED_GUN29_GUNPC\\VoloskovED_GUN29_GUNPC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zef1r\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,8 +21,7 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "net8.0": {
@@ -60,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

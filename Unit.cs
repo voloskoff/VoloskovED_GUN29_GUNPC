@@ -45,10 +45,12 @@
 
         private float RealHealth()
         {
-            return Health;//дописать выражение Health * (1f + Armor)
+            _health = Health * (1f + Armor);
+            return _health;
         }
         private bool SetDamage()
         {
+
             //рассчет ХП
             //Health - value * Armor
             if (Health <= 0f)
