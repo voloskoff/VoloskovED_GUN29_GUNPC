@@ -3,19 +3,17 @@
     internal class Unit
     {
         private float _health;
-        //private float _damage = 5f;
         private float _baseDamage = 5f;
 
-        public string Name { get; } /*= "Unknown Unit";*/
+        public string Name { get; } 
         public float Health { get { return _health; } }
         public float Damage
         {
             get 
-            { 
-
-                return _baseDamage; 
+            {
+                Weapon weapon = new Weapon("FighterWeapon");
+                return weapon.Damage + _baseDamage; 
             }
-            
         } 
 
         public float Armor
@@ -25,14 +23,13 @@
                 Helm armorHelm = new Helm("FighterArmorHelm");
                 Shell armorShell = new Shell("FighterArmorShell");
                 Boots armorBoots = new Boots ("FighterArmorBoots");
-                var armor = armorHelm.ArmorHelm + armorShell.ArmorShell + armorBoots.ArmorBoots;
-                if (armor < 0) armor = 0;
-                if (armor >=1) armor = 1;
-                return armor ;
+                //var armor = armorHelm.ArmorHelm + armorShell.ArmorShell + armorBoots.ArmorBoots;
+                //if (armor < 0) armor = 0;
+                //if (armor >=1) armor = 1;
+                //return armor;
+                return armorHelm.ArmorHelm + armorShell.ArmorShell + armorBoots.ArmorBoots; ;
             }
-          
         }
-
 
         public Unit() : this("Unknown Unit")
         {
@@ -43,18 +40,19 @@
             Name = unitName;
         }
 
-        private float RealHealth()
+        public float RealHealth()
         {
             _health = Health * (1f + Armor);
-            return _health;
+            Console.WriteLine("Здоровье Юнита щас",Health);
+            return Health;
         }
         private bool SetDamage()
         {
 
-            //рассчет ХП
-            //Health - value * Armor
-            if (Health <= 0f)
+            _health = Health - Damage * Armor;
+            if (_health <= 0f)
             {
+                Console.WriteLine("Здоровье Юнита меньше 0");
                 return true;
             }
             else
@@ -62,23 +60,19 @@
                 return false;
             }
         }
-        private void EquipWeapon()// дописать принимаемый аргумент
+        public void EquipWeapon(Weapon weapon)
         {
 
         }
-        private void EquipArmor()
+        public void EquipHelm(Helm helm)
         {
 
         }
-        private void EquipHelm()// дописать принимаемый аргумент
+        public void EquipShell(Shell shell)
         {
 
         }
-        private void EquipShell()// дописать принимаемый аргумент
-        {
-
-        }
-        private void EquipBoots()// дописать принимаемый аргумент
+        public void EquipBoots(Boots boots)
         {
 
         }

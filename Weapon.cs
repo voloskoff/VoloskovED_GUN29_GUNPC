@@ -46,6 +46,7 @@
         }
         public float GetDamage()
         {
+            Console.WriteLine("Средний урон оружия будет равен {0} попугаев", (MinDamage + MaxDamage) / 2);
             return (MinDamage + MaxDamage) / 2;
         }
 
