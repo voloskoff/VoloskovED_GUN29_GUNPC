@@ -1,6 +1,6 @@
 ﻿namespace Classes
 {
-    internal class Weapon
+    public class Weapon
     {
         
         public string Name { get; } = "No Weapon";
